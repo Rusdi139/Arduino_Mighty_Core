@@ -82,8 +82,8 @@ void keluarkan_angka(int a) {
 
 void matikan_angka()
 {
-  int data_scan = 16;
-  for (data_scan = 16; data_scan <= 22; data_scan++) {
+  int data_scan = 0;
+  for (data_scan = 0; data_scan <= 6; data_scan++) {
     digitalWrite(pinout[data_scan], LOW);
   }
 }
